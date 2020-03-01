@@ -5,8 +5,8 @@ Application Specification :
 2. There are two end points published & consumed :-
 
 	a. /add --> Adds new Credit Card Details
-	            * On Success, returns the details of Card saved as JSON
-				* On Failure, throws an exception if the card number is not a valid Luhn mod 10 number or number of digits is more than 19.
+	        * On Success, returns the details of Card saved as JSON
+		* On Failure, throws an exception if the card number is not a valid Luhn mod 10 number or number of digits is more than 19.
 				
 	b. /getAll --> Returns a list of all the Card Details stored in the DB
 	
